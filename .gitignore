@@ -12,10 +12,15 @@
 bin/
 gen/
 out/
+captures/
 
 # Gradle files
 .gradle/
 build/
+
+#cache
+
+.idea/caches/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -39,9 +44,11 @@ captures/
 .idea/gradle.xml
 .idea/dictionaries
 .idea/libraries
+.idea/modules.xml
 
 # Keystore files
 *.jks
+.DS_Store
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
